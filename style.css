@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2,
+i {
+    color: #eb5e28;
+}
+
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid #ff4400;
+    color: #ff4400;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    box-shadow: 1px -1px 6px 4px rgba(170, 204, 0, 1);
+    border-color: #aacc00;
+    color: #fff;
+}
+
+section {
+    position: relative;
+    padding: 0 1.2rem;
+}
+
+/* Top section */
+.top-section {
+    background: url('./img/showcase.jpg') no-repeat center center/cover;
+    width: 100%;
+    /* height: 80vh; */
+
+    min-height: 600px;
+}
+
+.top-section .container {
+    position: absolute;
+    top: 200px;
+    right: 40px;
+    width: 50%;
+}
+
+.top-section h1 {
+    font-size: 50px;
+    padding-bottom: 25px;
+}
+
+/* Section about */
+.section-about {
+    min-height: 300px;
+}
+
+.section-about .design {
+    position: absolute;
+    top: 30px;
+    left: 120px;
+}
+
+.section-about .container {
+    position: absolute;
+    top: 0;
+    right: 70px;
+    width: 50%;
+}
+
+.section-about .container>div,
+.section-grid>div {
+    background: rgb(52, 52, 52, 0.3);
+    margin-bottom: 40px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+
+
+/* section grid */
+.section-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    text-align: center;
+    padding: 50px 20px 0 20px;
+}
+
+/* footer */
+#footer a {
+    color: #fff;
+}
+
+#footer ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    border-top: 1px solid #eb5e28;
+}

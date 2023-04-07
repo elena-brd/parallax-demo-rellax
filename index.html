@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Parallax with Rellax JS</title>
+</head>
+
+<body>
+    <section class="top-section">
+        <div class="container rellax" data-rellax-speed="2">
+            <h1>Graphic Design Courses</h1>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="section-about">
+        <div class="container rellax" data-rellax-speed="10">
+            <div>
+                <h2>What is Graphic Design?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero praesentium delectus maxime,
+                    voluptatibus consequuntur rem distinctio harum laborum natus dolorum.</p>
+            </div>
+            <div>
+                <h2>Why are Graphic Design Skills Important?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero praesentium delectus maxime,
+                    voluptatibus consequuntur rem distinctio harum laborum natus dolorum.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-grid">
+        <div class="rellax" data-rellax-speed="2">
+            <i class="fa-solid fa-laptop"></i>
+            <h2>Research</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, facere voluptatum maxime sint beatae
+                consequuntur.</p>
+        </div>
+        <div class="rellax" data-rellax-speed="5">
+            <i class="fa-solid fa-pen-fancy"></i>
+            <h2>Evaluate</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, facere voluptatum maxime sint beatae
+                consequuntur.</p>
+        </div>
+        <div class="rellax" data-rellax-speed="7">
+            <i class="fa-solid fa-check"></i>
+            <h2>Select</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, facere voluptatum maxime sint beatae
+                consequuntur.</p>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Information</a></li>
+            <li><a href="#">Terms of use</a></li>
+        </ul>
+    </footer>
+
+
+
+
+    <script src="https://kit.fontawesome.com/f0b3d42456.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"
+        integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        // Init rellax
+        let rellax = new Rellax('.rellax');
+    </script>
+</body>
+
+</html>
